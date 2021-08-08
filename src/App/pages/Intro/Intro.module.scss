@@ -1,0 +1,7 @@
+@import '../../styles/entrypoint';
+
+.body {
+  @include flexCenterColumn;
+  height: 100%;
+  transition: 0.5s;
+}

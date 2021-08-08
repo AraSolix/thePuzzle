@@ -1,0 +1,28 @@
+@import '../../styles/entrypoint';
+
+.body {
+  @include m10;
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+  font-family: ubuntu-bold;
+  transition: 0.2s;
+  font-size: 13px;
+
+  &:hover{
+    background-color: grey;
+    cursor: pointer;
+  } 
+
+  &:disabled {
+    background-color: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    cursor: inherit;
+  }
+
+  @include smallScreen {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+export const websocket = new WebSocket('wss://hometask.eg1236.com/game-pipes/');

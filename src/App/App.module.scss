@@ -1,0 +1,10 @@
+@import './styles/entrypoint';
+
+.body {
+  height: 100vh;
+  padding: 40px;
+
+  @include smallScreen {
+    padding: 20px;
+  }
+}

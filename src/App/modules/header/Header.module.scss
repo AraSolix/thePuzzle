@@ -1,0 +1,7 @@
+@import '../../styles/entrypoint';
+
+.body {
+  @include m10;
+  font-family: ubuntu-bold;
+  font-size: 30px;
+}
